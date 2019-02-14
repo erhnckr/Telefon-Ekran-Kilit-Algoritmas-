@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+	int password=1234,x,i=0;
+	printf("Enter the password\n");
+	 while(i<3){
+	 	scanf("%d",&x);
+	 	if(999<x&&x<10000){
+		  if(x==password)
+		 printf("password is correct");                
+	 	else{          
+	 		printf("Incorrect password\n");
+			 i++;
+		    }
+	 	}	 	
+	 }
+	return 0;	
+}
